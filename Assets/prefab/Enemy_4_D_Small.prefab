@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6779695141887516415}
   - component: {fileID: 5595856447297740012}
   - component: {fileID: -8392258504926622560}
+  - component: {fileID: -6083853816774853671}
   m_Layer: 7
   m_Name: Enemy_4_D_Small
   m_TagString: Untagged
@@ -171,5 +172,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df30e21caac02d74a94ed67f06f3de9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionPrefab: {fileID: 1162907144658414621, guid: 99a80c66acbf4874eb5241495575f09c,
+  explosionPrefab: {fileID: 7092234275579722407, guid: 43cb7a155e5295d46a889f8c6b0c7c09,
     type: 3}
+  defaultHealthPoint: 1000
+--- !u!114 &-6083853816774853671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7390420568809558730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26d79f2a5b7bd96499e6ef41ff882dca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: {fileID: -8392258504926622560}
+  damage: 1
